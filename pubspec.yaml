@@ -19,11 +19,11 @@ dependencies:
   moe_flutter_core:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Core.git
-      ref: main
+      ref: master
   moe_flutter_auth:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Auth.git
-      ref: main
+      ref: master
 
 dev_dependencies:
   flutter_test:
