@@ -9,7 +9,7 @@ dependencies:
   moe_flutter_chat:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Chat.git
-      ref: master
+      ref: main
 ```
 
 ## Usage
