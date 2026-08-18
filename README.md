@@ -1,6 +1,6 @@
 # MOE-Flutter-Chat
 
-Chat package for MOE Flutter ecosystem — modular: simple buyer-seller / full (group, call, channel).
+Chat package for MOE Flutter ecosystem â€” modular: simple buyer-seller / full (group, call, channel).
 
 ## Installation
 
@@ -9,7 +9,7 @@ dependencies:
   moe_flutter_chat:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Chat.git
-      ref: master
+      ref: v1.0.0
 ```
 
 ## Usage
