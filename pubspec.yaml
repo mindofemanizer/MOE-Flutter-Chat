@@ -1,5 +1,5 @@
 name: moe_flutter_chat
-description: Chat package for MOE Flutter ecosystem — modular: simple buyer-seller / full (group, call, channel)
+description: "Chat package for MOE Flutter ecosystem - modular buyer-seller and group chat"
 version: 1.0.0
 publish_to: 'none'
 
@@ -19,11 +19,11 @@ dependencies:
   moe_flutter_core:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Core.git
-      ref: main
+      ref: master
   moe_flutter_auth:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Auth.git
-      ref: main
+      ref: master
 
 dev_dependencies:
   flutter_test:

@@ -41,7 +41,7 @@ void main() {
     });
 
     test('toJson round-trips correctly', () {
-      const model = ChatMessageModel(
+      final model = ChatMessageModel(
         id: 'test',
         roomId: 'r1',
         senderId: 1,
@@ -61,7 +61,7 @@ void main() {
     });
 
     test('copyWith updates fields', () {
-      const original = ChatMessageModel(
+      final original = ChatMessageModel(
         id: 'test',
         roomId: 'r1',
         senderId: 1,
@@ -78,7 +78,7 @@ void main() {
     });
 
     test('isSystem returns true for system type', () {
-      const model = ChatMessageModel(
+      final model = ChatMessageModel(
         id: 'test',
         roomId: 'r1',
         senderId: 0,
@@ -99,7 +99,7 @@ void main() {
         'name': 'Store Chat',
         'description': 'Customer support chat',
         'type': 'simple',
-        'participants': [1, 10],
+        'participants': ['1', '10'],
         'unread_count': 5,
         'last_message_at': '2026-08-10T15:00:00.000Z',
         'last_message': 'Thank you!',
@@ -112,7 +112,7 @@ void main() {
       expect(room.name, equals('Store Chat'));
       expect(room.description, equals('Customer support chat'));
       expect(room.type, equals('simple'));
-      expect(room.participants, equals([1, 10]));
+      expect(room.participants, equals(['1', '10']));
       expect(room.unreadCount, equals(5));
       expect(room.lastMessage, equals('Thank you!'));
       expect(room.isSimpleChat, isTrue);
@@ -121,7 +121,7 @@ void main() {
     });
 
     test('toJson round-trips correctly', () {
-      const model = ChatRoomModel(
+      final model = ChatRoomModel(
         id: 'test',
         name: 'Test Room',
         type: 'simple',
@@ -137,7 +137,7 @@ void main() {
     });
 
     test('default values', () {
-      const model = ChatRoomModel(
+      final model = ChatRoomModel(
         id: 'test',
         name: 'Test',
         type: 'simple',
